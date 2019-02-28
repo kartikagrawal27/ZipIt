@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/classy"
+    tools:context="com.zipitscanner.SplashScreenActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/splash_img"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:id="@+id/zipittext"
+            android:text="Zip it!"
+            android:textSize="70dp"
+            android:layout_below="@id/splash_img"
+            android:gravity="center_horizontal"
+            android:textAlignment="gravity"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enterprise"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:id="@+id/scanner"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="180dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
