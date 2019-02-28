@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "905550530049",
+    "firebase_url": "https://zip-it-eb9f0.firebaseio.com",
+    "project_id": "zip-it-eb9f0",
+    "storage_bucket": "zip-it-eb9f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905550530049:android:fbf6083749a1971d",
+        "android_client_info": {
+          "package_name": "com.zipit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905550530049-84kbr0kp8cr4mvrklpev7hbiu7mf3gqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSYDpQDZZbLnBwYBaNAx26GXHK_sL2peM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

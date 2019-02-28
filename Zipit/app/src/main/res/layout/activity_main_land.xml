@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="206dp"
+        android:layout_height="302dp"
+        android:background="#bd0016"
+        android:id="@+id/mcdonaldsButton">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/mcdonalds"
+            android:id="@+id/corporateImage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/corporateImage"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_toRightOf="@id/mcdonaldsButton"
+        android:layout_width="206dp"
+        android:layout_height="302dp"
+        android:id="@+id/tacobellButton"
+        android:background="#e70085">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/taco_bell"
+            android:id="@+id/schoolImage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/schoolImage"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/mcdonaldsButton"
+        android:layout_width="206dp"
+        android:layout_height="302dp"
+        android:background="#0b573b"
+        android:id="@+id/socialButton">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/subway"
+            android:id="@+id/martiniImage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/martiniImage"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="206dp"
+        android:layout_height="302dp"
+        android:id="@+id/clubButton"
+        android:background="#0066b3"
+        android:layout_below="@+id/mcdonaldsButton"
+        android:layout_toEndOf="@+id/mcdonaldsButton">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bk"
+            android:id="@+id/clubImage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/clubImage"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

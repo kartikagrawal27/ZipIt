@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zip it!</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_mc_donalds">Select a category</string>
+    <string name="title_activity_item_menu">Add to cart</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_qrcode">QRCodeActivity</string>
+</resources>
